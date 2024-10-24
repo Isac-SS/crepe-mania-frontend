@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .logo {
+    height: 80px;
+}
+
+.title-group {
+    display: flex;
+    gap: 5px;
+}
+
+.material-icons {
+    color: black;
+}
