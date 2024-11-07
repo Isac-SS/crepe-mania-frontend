@@ -1,0 +1,13 @@
+<mat-card>
+    <mat-card-title>Excluir produto</mat-card-title>
+    <form>
+        <mat-form-field> 
+            <input matInput disabled placeholder="Nome" [value]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput disabled placeholder="Preço" [value]="product.price" name="price(R$)">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button color="warn" (click)="delete()">Excluir</button>
+    <button mat-raised-button (click)="cancel()">Voltar</button>
+</mat-card>
