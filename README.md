@@ -1,27 +1,77 @@
-# Frontend
+# Projeto Angular - Prática de Conceitos e CRUD
+## Descrição
+Este é um projeto desenvolvido em Angular que tem como objetivo colocar em prática conceitos fundamentais do framework, como diferentes tipos de data binding, uso de pipes e diretivas, além da integração com a biblioteca Angular Material para construção de uma interface moderna e responsiva.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+O projeto implementa uma aplicação CRUD (Create, Read, Update, Delete) que consome dados de um JSON Server. Futuramente, a aplicação será integrada a uma API desenvolvida em Java com Spring, garantindo maior robustez e escalabilidade ao backend.
 
-## Development server
+## Funcionalidades
+Implementação de data binding (unidirecional e bidirecional)
+Uso de pipes para formatação de dados
+Aplicação de diretivas estruturais e de atributos
+Interface estilizada e responsiva com Angular Material
+Operações de CRUD completas:
+Criação de novos registros
+Listagem de dados
+Edição de registros existentes
+Exclusão de registros
+Integração inicial com JSON Server para simulação de backend
+Planejamento para futura integração com API Java/Spring
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
+- Angular (versão mais recente)
+- Angular Material
+- JSON Server para simulação de API REST
+- TypeScript para desenvolvimento
+- HTML5 e CSS para estrutura e estilos
 
-## Code scaffolding
+## Pré-requisitos
+Para rodar este projeto localmente, é necessário ter instalado:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js (versão mais recente recomendada)
+- Angular CLI
+- JSON Server
 
-## Build
+## Instalação e Execução
+Clone o repositório:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+bash
+Copiar código
+git clone https://github.com/seu-usuario/seu-projeto.git
 
-## Running unit tests
+`cd seu-projeto`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Instale as dependências:
 
-## Running end-to-end tests
+bash
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`npm install`
 
-## Further help
+#### Inicie o JSON Server:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+bash
+
+`npm start`
+
+#### Inicie o servidor de desenvolvimento do Angular:
+
+bash
+
+`npm start`
+
+Acesse a aplicação em http://localhost:4200.
+
+### Estrutura do Projeto:
+
+O projeto segue a estrutura de módulos e componentes, mantendo uma organização que facilita a escalabilidade e manutenção.
+
+## Próximos Passos
+- Migrar o backend para uma API em Java com Spring Boot para substituir o JSON Server.
+
+- Adicionar autenticação e autorização para usuários.
+
+- Melhorar as validações dos formulários com Angular Reactive Forms.
+
+
+## Contribuições
+
+Contribuições Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto, criar branches e submeter pull requests.
