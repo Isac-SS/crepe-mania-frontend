@@ -5,10 +5,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .red {
-    color: rgb(227, 94, 107);
+    color: #e35e6b;
 }
 
 /* .v-middle {
     vertical-align: middle;
     Controla o alinhamento vertical de elementos inline, inline-block, ou células de uma tabela
 } */
+
+.msg-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.msg-success {
+    background-color: #e35e6b;
+    color: #fff;
+}
+
